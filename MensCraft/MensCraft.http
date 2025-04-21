@@ -1,0 +1,6 @@
+@MensCraft_HostAddress = http://localhost:5195
+
+GET {{MensCraft_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
