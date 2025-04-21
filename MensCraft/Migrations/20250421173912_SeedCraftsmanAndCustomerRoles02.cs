@@ -10,7 +10,7 @@ namespace MensCraft.Migrations
 		/// <inheritdoc />
 		protected override void Up(MigrationBuilder migrationBuilder)
 		{
-			// لازم تستخدم int للـ Id هنا بدل من Guid
+			
 			migrationBuilder.InsertData(
 				table: "AspNetRoles",
 				columns: new[] { "Id", "Name", "NormalizedName", "ConcurrencyStamp" },
